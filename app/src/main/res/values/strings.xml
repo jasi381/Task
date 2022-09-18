@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application-1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="price">Price</string>
+    <string name="commodity">Commodity</string>
+    <string name="villages">Villages</string>
+    <string name="districts">Districts</string>
+    <string name="date">Date</string>
+    <string name="sort_by_date_in_descending_order">Sort by Date in Descending Order</string>
+    <string name="sort_by_villages_in_descending_order">Sort by Villages in Descending Order</string>
+    <string name="sort_by_villages_in_ascending_order">Sort by Villages in Ascending order</string>
+    <string name="sort_by_districts_in_ascending_order">Sort by Districts in Ascending Order</string>
+    <string name="sort_by_districts_in_descending_order">Sort by Districts in Descending Order</string>
+    <string name="sort_by_price_in_descending_order">Sort by Price in Descending Order</string>
+    <string name="sort_by_price_in_ascending_order">Sort by Price in Ascending Order</string>
+    <string name="sort_by_date_in_ascending_order">Sort by date in Ascending order</string>
+
+
+</resources>

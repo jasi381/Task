@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/descPrice"
+        android:title="@string/sort_by_price_in_descending_order"/>
+
+    <item
+        android:id="@+id/ascPrice"
+        android:title="@string/sort_by_price_in_ascending_order"/>
+
+    <item
+        android:id="@+id/ascDate"
+        android:title="@string/sort_by_date_in_ascending_order"/>
+
+    <item
+        android:id="@+id/descDate"
+        android:title="@string/sort_by_date_in_descending_order"/>
+
+
+    <item
+        android:id="@+id/ascVillage"
+        android:title="@string/sort_by_villages_in_ascending_order"/>
+
+
+    <item
+        android:id="@+id/descVillage"
+        android:title="@string/sort_by_villages_in_descending_order"/>
+
+    <item
+        android:id="@+id/ascDistricts"
+        android:title="@string/sort_by_districts_in_ascending_order"/>
+
+
+    <item
+        android:id="@+id/descDistricts"
+        android:title="@string/sort_by_districts_in_descending_order"/>
+
+
+</menu>

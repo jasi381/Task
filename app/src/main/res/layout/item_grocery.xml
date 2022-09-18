@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#B2BEB5"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/commodity"
+                android:layout_width="90dp"
+                android:padding="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="20dp"
+                android:layout_height="wrap_content"
+                android:text="@string/commodity"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:id="@+id/tv_commodity"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_below="@+id/commodity"
+                android:text="@string/commodity"
+                android:textColor="@color/black"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="@string/price"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/price"
+                android:text="@string/price"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/villages"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="20dp"
+                    android:padding="5dp"
+                    android:text="@string/villages"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_villages"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_below="@+id/villages"
+                    android:text="@string/villages"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+
+
+                <TextView
+                    android:id="@+id/districts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="@string/districts"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    tools:ignore="RelativeOverlap" />
+
+                <TextView
+                    android:id="@+id/tv_districts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/districts"
+                    android:text="@string/districts"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_below="@+id/tv_villages"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="@string/date"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    tools:ignore="RelativeOverlap" />
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/date"
+                    android:text="@string/date"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
